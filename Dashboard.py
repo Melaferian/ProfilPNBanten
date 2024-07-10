@@ -8,4 +8,4 @@ st.title("Dashboard Profil Piutang Negara Kanwil DJKN Banten")
 dashboard_url = "https://app.powerbi.com/view?r=eyJrIjoiZDNhNWEyZTctY2FlMi00NDQ3LWFkNTUtNzEwMmEwNzc2NDU2IiwidCI6ImVkNmZiMzY2LTgzMjItNDZmMy05MTVlLWM0ZDAzN2E0NTRhOSIsImMiOjEwfQ%3D%3D"
 
 # Embed the dashboard using an iframe
-components.v1.iframe(src=dashboard_url, width=800, height=400)
+components.iframe(src=dashboard_url, width=800, height=400)
